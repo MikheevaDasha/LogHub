@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F630D71-1099-4D3C-BCB1-98903812D377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogHub", "src\LogHub\LogHub.csproj", "{33213588-99D2-4893-A4BB-2C88A1E962AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{73F51F11-AE85-4E73-8972-960B353640DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogHub.Tests", "tests\LogHub.Tests\LogHub.Tests.csproj", "{29236920-5586-45D0-A969-DEFDE95E5C40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33213588-99D2-4893-A4BB-2C88A1E962AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33213588-99D2-4893-A4BB-2C88A1E962AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33213588-99D2-4893-A4BB-2C88A1E962AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33213588-99D2-4893-A4BB-2C88A1E962AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29236920-5586-45D0-A969-DEFDE95E5C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29236920-5586-45D0-A969-DEFDE95E5C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29236920-5586-45D0-A969-DEFDE95E5C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29236920-5586-45D0-A969-DEFDE95E5C40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33213588-99D2-4893-A4BB-2C88A1E962AF} = {1F630D71-1099-4D3C-BCB1-98903812D377}
+		{29236920-5586-45D0-A969-DEFDE95E5C40} = {73F51F11-AE85-4E73-8972-960B353640DA}
+	EndGlobalSection
+EndGlobal
